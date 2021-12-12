@@ -64,7 +64,7 @@ public class Ellipse {
     }
 
     public String toString() {
-        return String.format("(%s, %s)-[%s,%s], %s, P=%s, A=%s", startPoint.x, startPoint.y, a, b, getType(), calculatePerimeter(), calculateArea());
+        return String.format("(%s, %s)-[%s, %s], %s, P=%s, A=%s", startPoint.x, startPoint.y, a, b, getType(), calculatePerimeter(), calculateArea());
 
     }
 
