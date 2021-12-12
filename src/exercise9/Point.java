@@ -1,8 +1,8 @@
 package exercise9;
 
 public class Point {
-    private double x;
-    private double y;
+     double x;
+     double y;
 
     public Point() {
         x = 0;

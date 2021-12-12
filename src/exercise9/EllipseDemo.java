@@ -1,6 +1,6 @@
 package exercise9;
 
-import java.awt.Point;
+
 
 public class EllipseDemo {
     public static void main(String[] args) {
@@ -10,6 +10,7 @@ public class EllipseDemo {
         Ellipse ellipse2 = new Ellipse(startPoint2, 5,6 );
         Ellipse ellipse3 = new Ellipse(ellipse2);
         Ellipse ellipse4 = new Ellipse();
+        ellipse4.initialize();
 
         System.out.println("Ellipse 1: " + ellipse1);
         System.out.println("Ellipse 2: " + ellipse2);

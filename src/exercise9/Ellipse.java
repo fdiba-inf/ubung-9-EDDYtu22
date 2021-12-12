@@ -4,7 +4,7 @@ import java.lang.Math;
 
 
 
-import java.awt.Point;
+
 
 public class Ellipse {
     private Point startPoint;
@@ -34,7 +34,7 @@ public class Ellipse {
         return a > 0 && b > 0;
     }
 
-    public void initialize() {
+    public void initialize () {
         do {
             System.out.println("Start point: ");
             startPoint.initialize();
