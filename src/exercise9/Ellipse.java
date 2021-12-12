@@ -37,7 +37,7 @@ public class Ellipse {
     public void initialize() {
         do {
             System.out.println("Start point: ");
-            startPoint.initialize;
+            startPoint.initialize();
             System.out.print("Enter height: ");
             a = Utils.INPUT.nextDouble();
             System.out.print("Enter width: ");
